@@ -1,0 +1,7 @@
+{
+  "name": "ZeroAccountBeta",
+  "packageManager": "yarn@4.0.1",
+  "workspaces": [
+    "packages/*"
+  ]
+}
