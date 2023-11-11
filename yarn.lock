@@ -606,17 +606,23 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "app-store@workspace:packages/app-store"
   dependencies:
+    "@radix-ui/react-separator": "npm:^1.0.3"
     "@types/node": "npm:^20"
     "@types/react": "npm:^18"
     "@types/react-dom": "npm:^18"
     autoprefixer: "npm:^10.0.1"
+    class-variance-authority: "npm:^0.7.0"
+    clsx: "npm:^2.0.0"
     eslint: "npm:^8"
     eslint-config-next: "npm:14.0.2"
+    lucide-react: "npm:^0.292.0"
     next: "npm:14.0.2"
     postcss: "npm:^8"
     react: "npm:^18"
     react-dom: "npm:^18"
+    tailwind-merge: "npm:^2.0.0"
     tailwindcss: "npm:^3.3.0"
+    tailwindcss-animate: "npm:^1.0.7"
     typescript: "npm:^5"
   languageName: unknown
   linkType: soft
