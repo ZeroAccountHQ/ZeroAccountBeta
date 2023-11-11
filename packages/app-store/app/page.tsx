@@ -32,47 +32,55 @@ export default function Home() {
         </div>
       </div>
       <div className="w-full flex flex-row items-center">
-        <Card className="w-full flex flex-row items-center m-8 p-4">
-          <div>
-            <Image
-              className="w-full"
-              src="/space.png"
-              width={100}
-              height={100}
-              alt=""
-            />
-          </div>
-          <div>
-            <CardHeader>
-              <CardTitle>SpceFi Airdrop</CardTitle>
-              <CardDescription>
-                Enter your wallet to claim your $SPCE airdrop - without doxxing
-                it ✨
-              </CardDescription>
-            </CardHeader>
-          </div>
-        </Card>
+        <div className="w-full m-8 ">
+          <a href="https://zero-account-beta-example-app.vercel.app/">
+            <Card className="flex flex-row items-center p-4">
+              <div>
+                <Image
+                  className="w-full"
+                  src="/space.png"
+                  width={100}
+                  height={100}
+                  alt=""
+                />
+              </div>
+              <div>
+                <CardHeader>
+                  <CardTitle>SpceFi Airdrop</CardTitle>
+                  <CardDescription>
+                    Enter your wallet to claim your $SPCE airdrop - without
+                    doxxing it ✨
+                  </CardDescription>
+                </CardHeader>
+              </div>
+            </Card>
+          </a>
+        </div>
 
-        <Card className="w-full flex flex-row items-center p-4">
-          <div>
-            <Image
-              className="w-full"
-              src="/chad.png"
-              width={100}
-              height={100}
-              alt=""
-            />
-          </div>
-          <div>
-            <CardHeader>
-              <CardTitle>OG Swag Claim</CardTitle>
-              <CardDescription>
-                Enter your delivery address to claim your Swag - without doxxing
-                your wallet 👀
-              </CardDescription>
-            </CardHeader>
-          </div>
-        </Card>
+        <div className="w-full m-8 ">
+          <a href="https://zero-account-beta-example-app.vercel.app/">
+            <Card className="flex flex-row items-center p-4">
+              <div>
+                <Image
+                  className="w-full"
+                  src="/chad.png"
+                  width={100}
+                  height={100}
+                  alt=""
+                />
+              </div>
+              <div>
+                <CardHeader>
+                  <CardTitle>OG Swag Claim</CardTitle>
+                  <CardDescription>
+                    Enter your delivery address to claim your Swag - without
+                    doxxing your wallet 👀
+                  </CardDescription>
+                </CardHeader>
+              </div>
+            </Card>
+          </a>
+        </div>
       </div>
       <div className="w-full mt-8">
         <div>
