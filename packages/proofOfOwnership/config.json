@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "deployAliases": {
+    "ownbetav1": {
+      "url": "https://proxy.berkeley.minaexplorer.com/graphql",
+      "keyPath": "keys/ownbetav1.json",
+      "feepayerKeyPath": "/Users/nikhilverma/.cache/zkapp-cli/keys/berkeley.json",
+      "feepayerAlias": "berkeley",
+      "fee": "0.1",
+      "smartContract": "Own"
+    }
+  }
+}
